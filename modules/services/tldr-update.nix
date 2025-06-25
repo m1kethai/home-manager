@@ -15,7 +15,7 @@ in
       Automatic updates for the tldr CLI
     '';
 
-    package = lib.mkPackageOption pkgs "tldr" { example = "tlrc"; };
+    package = lib.mkPackageOption pkgs "tldr" { example = "pkgs.tlrc"; };
 
     period = lib.mkOption {
       type = lib.types.str;
